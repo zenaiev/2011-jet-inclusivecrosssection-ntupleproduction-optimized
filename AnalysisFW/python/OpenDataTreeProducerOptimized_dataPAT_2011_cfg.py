@@ -102,8 +102,9 @@ process.p = cms.Path(
     process.ak5ak7
 )
 
-# Approximate processing time on VM (Intel Core i5-5300U 2.3GHz laptop):
-# 50000 events per 1 hour (both for DATA and MC)
+# Processing time on VM (2011 laptop)
+# - DATA: 50000 events / 4 hours
+# - MC:   50000 events / 5 hours
 
 # Change number of events here:
 process.maxEvents.input = 50000
